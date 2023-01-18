@@ -11,6 +11,7 @@ DEVICE_PATH := device/oneplus/spartan
 
 # Display
 TARGET_SCREEN_DENSITY := 450
+TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
