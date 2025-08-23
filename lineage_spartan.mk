@@ -24,8 +24,8 @@ PRODUCT_MODEL := RMX3371
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1d262cb-66b86-66b87 release-keys" \
-    BuildFingerprint=realme/RMX3371/RE54E4L1:14/UKQ1.230924.001/S.1d262cb-66b86-66b87:user/release-keys \
+    BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1ed3b13-9d91c-c8207 release-keys" \
+    BuildFingerprint=realme/RMX3371/RE54E4L1:14/UKQ1.230924.001/S.1ed3b13-9d91c-c8207:user/release-keys \
     DeviceName=RE54E4L1 \
     DeviceProduct=RMX3371 \
     SystemDevice=RE54E4L1 \
