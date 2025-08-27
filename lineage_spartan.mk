@@ -19,7 +19,7 @@ PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := RMX3371
+PRODUCT_MODEL := spartan
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
