@@ -12,8 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/oneplus/spartan/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Evolution X
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan

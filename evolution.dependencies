@@ -1,0 +1,37 @@
+[
+  {
+    "remote": "github-non-los",
+    "repository": "provasish/android_device_oneplus_sm8250-common",
+    "target_path": "device/oneplus/sm8250-common",
+    "branch": "vic"
+  },
+  {
+    "repository": "vendor_oneplus_spartan",
+    "target_path": "vendor/oneplus/spartan",
+    "branch": "lineage-22.2"
+  },
+  {
+    "remote": "github-non-los",
+    "repository": "provasish/proprietary_vendor_oneplus_sm8250-common",
+    "target_path": "vendor/oneplus/sm8250-common",
+    "branch": "vic"
+  },
+  {
+    "remote": "github-non-los",
+    "repository": "provasish/hardware_oplus",
+    "target_path": "hardware/oplus",
+    "branch": "vic"
+  },
+  {
+    "remote": "github-non-los",
+    "repository": "provasish/android_kernel_oneplus_sm8250",
+    "target_path": "kernel/oneplus/sm8250",
+    "branch": "lineage-23.0"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "provasishh/proprietary_vendor_oplus_camera",
+    "target_path": "vendor/oplus/camera",
+    "branch": "lineage-22.0"
+  }
+]
