@@ -358,6 +358,7 @@
         A 29,29 0 1,0 127,67
         A 29,29 0 1,0 69,67
         Z
+        @left
     </string>
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
@@ -368,7 +369,7 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
         M 0,0
-        H 164
+        H 138
         V 106
         H 0
         Z
