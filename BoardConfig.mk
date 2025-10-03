@@ -10,7 +10,7 @@ include device/oneplus/sm8250-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/spartan
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
 
 # HIDL
