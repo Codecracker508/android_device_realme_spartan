@@ -12,16 +12,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/oneplus/spartan/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Voltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_spartan
+PRODUCT_NAME := voltage_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := spartan
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+# VoltageOS
+TARGET_BOOT_ANIMATION_RES := 1080
+PRODUCT_NO_CAMERA := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1ed3b13-9d91c-c8207 release-keys" \

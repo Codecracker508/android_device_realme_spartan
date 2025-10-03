@@ -35,7 +35,7 @@ $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-voltage
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
