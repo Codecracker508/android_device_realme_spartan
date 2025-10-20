@@ -13,9 +13,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/spartan/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/clover/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_spartan
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Clover Flags
+CLOVER_BUILDTYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+PRODUCT_NAME := clover_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -25,8 +34,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1ed3b13-9d91c-c8207 release-keys" \
-    BuildFingerprint=realme/RMX3371/RE54E4L1:14/UKQ1.230924.001/S.1ed3b13-9d91c-c8207:user/release-keys \
-    DeviceName=RE54E4L1 \
-    DeviceProduct=RMX3371 \
-    SystemDevice=RE54E4L1 \
-    SystemName=RMX3371
