@@ -10,18 +10,18 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from spartan device
-$(call inherit-product, device/oneplus/spartan/device.mk)
+$(call inherit-product, device/realme/spartan/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
+PRODUCT_MANUFACTURER := realme
+PRODUCT_BRAND := realme
 PRODUCT_MODEL := spartan
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1ed3b13-9d91c-c8207 release-keys" \
