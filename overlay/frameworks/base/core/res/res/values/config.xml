@@ -1,0 +1,11 @@
+<resources>
+
+<bool name="config_supportsRefreshRateSwitching">true</bool>
+<bool name="config_supportsSeamlessRefreshRateSwitching">true</bool>
+
+<integer name="config_defaultRefreshRate">120</integer>
+<integer name="config_defaultPeakRefreshRate">120</integer>
+
+<bool name="config_enableDynamicRefreshRate">true</bool>
+
+</resources>
