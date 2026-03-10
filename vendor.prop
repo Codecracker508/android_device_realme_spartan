@@ -10,3 +10,7 @@ persist.radio.multisim.config=dsds
 
 # USB
 vendor.usb.product_string=realme GT NEO 3T
+
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
