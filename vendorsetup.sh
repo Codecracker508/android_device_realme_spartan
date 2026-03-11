@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 echo "==> Starting vendor setup"
 
 # Helper function
@@ -24,7 +22,7 @@ clone_repo() {
 
 # Device common tree
 clone_repo \
-    https://github.com/provasish/android_device_realme_sm8250-common.git \
+    https://github.com/Codecracker508/android_device_realme_sm8250-common.git \
     lineage-23.1 \
     device/realme/sm8250-common
 
@@ -48,7 +46,7 @@ clone_repo \
 
 # Hardware Oplus
 clone_repo \
-    https://github.com/provasish/android_hardware_oplus.git \
+    https://github.com/Codecracker508/android_hardware_oplus.git \
     lineage-23.1 \
     hardware/oplus
 
@@ -60,8 +58,8 @@ clone_repo \
 
 # Kernel
 clone_repo \
-    https://github.com/provasish/android_kernel_realme_sm8250.git \
-    lineage-23.0 \
+    https://github.com/EvoX-Spartan/android_kernel_realme_sm8250.git \
+    bka \
     kernel/realme/sm8250
 
 echo "==> Vendor setup complete"
