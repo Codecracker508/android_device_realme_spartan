@@ -23,7 +23,7 @@ clone_repo() {
 # Device common tree
 clone_repo \
     https://github.com/Codecracker508/android_device_realme_sm8250-common.git \
-    lineage-23.1 \
+    infinity \
     device/realme/sm8250-common
 
 # Vendor tree

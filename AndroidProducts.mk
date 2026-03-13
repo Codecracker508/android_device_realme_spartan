@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_spartan.mk
+    $(LOCAL_DIR)/infinity_spartan.mk

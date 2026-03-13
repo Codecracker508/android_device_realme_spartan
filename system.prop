@@ -1,4 +1,5 @@
 # Display
 sys.brightness.disable_gamma_conversion=true
-# maintainer
-ro.lunaris.maintainer=Suresh
+ro.product.marketname=realme GT Neo 3T
+ro.infinity.soc=Snapdragon 870
+ro.infinity.camera=64MP + 8MP + 2MP

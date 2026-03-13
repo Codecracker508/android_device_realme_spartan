@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/spartan/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan
@@ -31,8 +31,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=RE54E4L1 \
     SystemName=RMX3371
 
-WITH_GMS := true
-TARGET_OPTIMIZED_DEXOPT := true
-TARGET_CUSTOM_UDFPS := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTED_REFRESH_RATES := 60,120
+# Maintainer Name
+INFINITY_MAINTAINER := "Suresh"
+
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := true
+
+# Whether Including Google Apps
+WITH_GAPPS := true
+
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/infinity-priv/keys/releasekey
